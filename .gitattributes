@@ -1,0 +1,2 @@
+# Preserve release-file bytes for MANIFEST.sha256 verification.
+* -text

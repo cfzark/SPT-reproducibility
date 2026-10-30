@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-10-29",
+  "sources_sha256": {
+    "theory/simulation_gcv_reml_20261027/summary.csv": "9deb22495386110a613b30ab8f2716603b91b03bf9aaf555212f74f86213f151",
+    "theory/nores_final_checks_r100_20261008/original_sim_repaired_summary.csv": "1b055cf7bafb6fde7791a63ad9ffe7b0b6ac549ae0a18c22b24aaee75a70e3ca",
+    "theory/manuscript_clinical_sources_20261027/summary.csv": "af18aa094e6ff9476661e419774fd97ce2e790d7e052a537f4273652142029bd",
+    "theory/manuscript_clinical_sources_20261027/repetition_metrics.csv": "4a2b88160a17aa87cf48a8fcd2940cf59fdc661211737a41a252cc925de70708",
+    "theory/manuscript_ablation_3x4_20261027/replication_contrasts.csv": "aee56eeb00c143670a7b7064ebef47c77a0067680e1fac728b0c05c0119b5551",
+    "theory/spt_mechanism_2x2_20261026/curve_summary.csv": "e652b8f1ceac5fb63cc75c37ffc76813958cae001c6d942ef52405a6cab0141a",
+    "theory/spt_mechanism_2x2_20261026/path_grid.csv": "009a99dc176b408eed210d72ad792353296d3de31f94b41823de630fe3c7798c",
+    "theory/spt_mechanism_2x2_20261026/reference.csv": "4e81023e48f970f666f5e32a096b1991d1abcfa7c1d2213f8ddd006141230f81",
+    "theory/spt_large_n_20261028/results/horizon_average/summary.csv": "6209772eedfcc02e028ea9beceeeae35c8dec637fc2c408e72736b96c7da99cf",
+    "theory/spt_large_n_20261028/theory_checks/diagnostic_summary.csv": "2b6bd84391612acc7624d1aecace5fa1bd7ee533722d102d8d9abb7f57304ec5",
+    "theory/spt_large_n_20261028/theory_checks/tau_zero_rates.csv": "c1f448ee1a13a3b755ced2c882291346f2c6c42da2ce28af3c6e3da3db99a3af",
+    "manuscripts/main.tex": "f5373c341ae6bfc64a9d5ceb3a7c97e595933eb1efcba22839259f7c8aef7678",
+    "manuscripts/supplement.tex": "3bc8f2b51bb96eacf6c9b8bb9d7d7e9a5040850afcb86614e0bda463f0d6fb04"
+  },
+  "contains_individual_clinical_data": false,
+  "main_tables": 2,
+  "supplement_tables": 16,
+  "figures": 7,
+  "algorithm_source_sha256": {
+    "src/unified_simulation_shared_interaction_20260926.R": "e8f2063175da83e28c1c836eac826008ea1c47e89de1caeed332c892b72a613c",
+    "src/simulation_signal_grid_r50_20261004.R": "6f519f5f940e29eed7893826036b3158673dc261e9c2333d723d5567e41af780",
+    "src/simulation_gcv_reml_20261027_selection.R": "06e988ba7b70c529eb56db78041f8d540216cbd74a82b01f14f8ac8749329d04",
+    "src/r100_solver_repair_20261003.R": "2176bab725cbb5f21b40bd47d9357869449132fdcccc77ccae578bcba11737d0",
+    "src/shared_interaction_single_solver_20260926.R": "33df12b33f5d389fa65faa8f76bc78c53959818c6072298403a2f1eff6b1320f",
+    "src/realdata_score_transfer.R": "fe9be20c8001d8aeb9ad1f19d9844eee729362c7bedc109accd30c1cd121a073",
+    "src/simulation_r100_comparators_20261003.R": "6d7b730f0c2979a2bc0bce4b2e30c26eca22fe9954b18c524c2337300c615e68",
+    "src/simulation_r100_noncox_20261003.R": "0e8b4f1655ddaa370539f56b38eeffd43f64b715b803999c1dfa58c1e4561566",
+    "src/simulation_r100_coxtl_20261003.R": "efa1764848576a5cc128f33d0e368973843c0e44f43f0a38d83a2b297d8824d3",
+    "src/ipcw_nn_20261012.R": "5dd5f11f0cc9a3ea3bd4e59d12771ca1746e2554cbbbb0f060ef86411daa76ff",
+    "src/ukb_b_cox_20261027.R": "37d02a42f1e68775544f946fc267f8634ec7d3da48d59877494ad4ebf5df3803",
+    "src/paired_tau_reference_20261001.R": "71837b29fe184bc8591404e9600e184b1fe5fac37aaa00fe2fc3676e2d0c4701",
+    "src/paired_tau_one_se_20260927.R": "e13156b1ea17f9487a604964a7a57bf8e3f623b1c2656f30ec2ca7c799f03a7b"
+  }
+}

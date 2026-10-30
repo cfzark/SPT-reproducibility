@@ -1,0 +1,21 @@
+{
+  "horizons": [
+    24,
+    30,
+    36
+  ],
+  "inner_folds": 5,
+  "coxkl_eta_n": 10,
+  "coxkl_eta_max": 5,
+  "coxkl_criterion": "V&VH",
+  "coxkl_tol": 1e-07,
+  "coxkl_maxit": 500,
+  "potl_r": 0,
+  "potl_xi_exponents": [
+    -15,
+    15
+  ],
+  "potl_tol": 0.0001,
+  "potl_maxit": 2000,
+  "potl_cv_criterion": "author_negative_validation_profile_loglikelihood"
+}

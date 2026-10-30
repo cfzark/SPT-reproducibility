@@ -1,0 +1,23 @@
+{
+  "horizons": [
+    24,
+    30,
+    36
+  ],
+  "discrete_interval_months": 6,
+  "discrete_administrative_horizon": 48,
+  "discrete_eta_min": 0,
+  "discrete_eta_max": 10,
+  "discrete_eta_step": 0.1,
+  "discrete_inner_folds": 5,
+  "discrete_tol": 1e-16,
+  "discrete_max_iter": 100,
+  "discrete_max_score": 1e-05,
+  "aft_inner_folds": 8,
+  "aft_probability_adapter": "target_training_residual_Kaplan_Meier",
+  "aft_native_penalty": "author_10_constants_1_to_0.1_shared_stage_constant_hard_thresholding",
+  "probability_clip": [
+    0.001,
+    0.999
+  ]
+}

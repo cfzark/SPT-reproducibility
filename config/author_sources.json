@@ -1,0 +1,51 @@
+[
+  {
+    "repo": "YUYING-LU/CoxTL",
+    "commit": "cb2b95b80eda0a2fcc1ba3349a3e03158d42e11a",
+    "path": "run_CoxTL.R",
+    "destination": "CoxTL/run_CoxTL.R",
+    "sha256": "25f2fa3ae5e669e8097fe02486c452719739c09aa5b154733f53124035ed036c"
+  },
+  {
+    "repo": "YUYING-LU/CoxTL",
+    "commit": "cb2b95b80eda0a2fcc1ba3349a3e03158d42e11a",
+    "path": "density_opt.R",
+    "destination": "CoxTL/density_opt.R",
+    "sha256": "5e233b27d6a4827f2ceff6f1e19d763f635efbaa405c9d8fe3dedf44dff29b38"
+  },
+  {
+    "repo": "yugu-stat/POTL",
+    "commit": "ab9da45d27e5ca37d3445a782ef3d77a67e34d88",
+    "path": "application/EM.cpp",
+    "destination": "POTL/EM.cpp",
+    "sha256": "3fa5782ab303c273787f064e5f79e8900766feabd12a65e624b83400525d0b7e"
+  },
+  {
+    "repo": "yugu-stat/POTL",
+    "commit": "ab9da45d27e5ca37d3445a782ef3d77a67e34d88",
+    "path": "application/gaulag.hpp",
+    "destination": "POTL/gaulag.hpp",
+    "sha256": "fbe8dd70b185b7bedd358c4dbf090d835f293233619889a92903580a62285426"
+  },
+  {
+    "repo": "yugu-stat/POTL",
+    "commit": "ab9da45d27e5ca37d3445a782ef3d77a67e34d88",
+    "path": "application/internal.hpp",
+    "destination": "POTL/internal.hpp",
+    "sha256": "a4f7799915ea43a2cbc6d2e8576e6fea680383f7dfc0ef23511900f4bd6fd52c"
+  },
+  {
+    "repo": "yugu-stat/POTL",
+    "commit": "ab9da45d27e5ca37d3445a782ef3d77a67e34d88",
+    "path": "application/metric.hpp",
+    "destination": "POTL/metric.hpp",
+    "sha256": "5172c0549faee1fc787bd84b9f7b6bfa00ac9f716bd59c7965b0967d364aaf82"
+  },
+  {
+    "repo": "YuZhengyang-CUEB/Trans-AFT",
+    "commit": "75b56ca057ee446cbafc6838b7417a240945bd53",
+    "path": "Simulation-Functions.R",
+    "destination": "Trans-AFT/Simulation-Functions.R",
+    "sha256": "3532f9e475636c630bc90cdd0de542abf0bd45ded426c192ebfcda7d53a49b2d"
+  }
+]

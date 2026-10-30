@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-29",
+  "scope": "current main/supp only",
+  "r_files_parsed": 18,
+  "scope_and_model_smoke": "PASS",
+  "simulation_regression": {
+    "design": "G2 A log-logistic, replication 1",
+    "methods": 7,
+    "horizons": 3,
+    "metric_cells": 105,
+    "max_absolute_error": 0.0,
+    "source_target_test_observations_max_error": 0,
+    "training_quantile_max_error": 0
+  },
+  "clinical_regression": {
+    "sample": "UKB B -> SPRINT standard; replication 1, outer fold 1, month 24; frozen ts/k10 source",
+    "B": 0,
+    "S": 0,
+    "projection": 3.5527e-15,
+    "prediction_tau0": 5.4831e-11,
+    "prediction_tau0.1": 5.9962e-11,
+    "prediction_tau0.5": 5.6984e-11,
+    "prediction_tau1": 8.1846e-12,
+    "source_table_metrics_max_error": 3.33066907387547e-16
+  },
+  "comparators_small_data_smoke": {
+    "Target-Cox": {
+      "pass": true,
+      "seconds": 0.161
+    },
+    "CoxTL": {
+      "pass": true,
+      "seconds": 3.837
+    },
+    "TransCox-BIC": {
+      "pass": true,
+      "seconds": 37.619
+    },
+    "CoxKL": {
+      "pass": true,
+      "seconds": 0.426
+    },
+    "DiscreteKL": {
+      "pass": true,
+      "seconds": 4.058
+    },
+    "Trans-AFT": {
+      "pass": true,
+      "seconds": 0.39
+    },
+    "Random-Survival-Forest": {
+      "pass": true,
+      "seconds": 28.898
+    },
+    "IPCW-XGBoost": {
+      "pass": true,
+      "seconds": 11.685
+    },
+    "POTL-Cox": {
+      "pass": true,
+      "compiled_from_pinned_local_author_code": true
+    }
+  },
+  "tables_restored": 18,
+  "figures_rendered": 7,
+  "reference_simulation_rows": 900,
+  "reference_clinical_rows": 51,
+  "clinical_methods": 17,
+  "manuscripts_changed": false,
+  "historical_results_changed": false,
+  "new_full_scale_jobs_submitted": 0,
+  "not_performed": [
+    "Full R100 rerun of the extracted harness",
+    "Full repeated-five-fold clinical rerun",
+    "Fresh network dependency installation"
+  ],
+  "notes": [
+    "Comparator smoke tests verify successful interfaces and finite predictions on small synthetic data; they do not establish equality of every historical comparator fit.",
+    "Clinical predictions compared with frozen models; no patient records are distributed.",
+    "One inherited CoxTL formula-deprecation warning remains.",
+    "POTL compilation requires an activated R/C++ toolchain."
+  ]
+}

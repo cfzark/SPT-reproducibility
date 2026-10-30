@@ -1,0 +1,15 @@
+*_zh.*
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+*.rds
+*.RDS
+*.log
+*.out
+*.tar.gz
+/data/
+/results/
+/library/
+/cript reproducibility code*
